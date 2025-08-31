@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gagan Baghel - Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+    header p {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid white;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .skills {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .skill-box {
+      background: rgba(255,255,255,0.1);
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    footer {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>गगन बघेल</h1>
+    <p>इलेक्ट्रॉनिक्स इंजीनियरिंग विद्यार्थी</p>
+  </header>
+
+  <section>
+    <h2>मेरे बारे में</h2>
+    <p>नमस्ते! मेरा नाम गगन बघेल है।  
+       मैं इलेक्ट्रॉनिक्स इंजीनियरिंग का विद्यार्थी हूँ और तकनीक के क्षेत्र में सीखने व आगे बढ़ने की इच्छा रखता हूँ।</p>
+  </section>
+
+  <section>
+    <h2>कौशल</h2>
+    <div class="skills">
+      <div class="skill-box">Electronics</div>
+      <div class="skill-box">Engineering</div>
+      <div class="skill-box">Learning</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>संपर्क करें</h2>
+    <p>📞 मोबाइल: <a href="tel:+918251092336">8251092336</a></p>
+    <p>📷 इंस्टाग्राम: <a href="https://instagram.com/gagan_baghel_chitoli" target="_blank">@gagan_baghel_chitoli</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Gagan Baghel | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
